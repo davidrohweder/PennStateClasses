@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat May  7 15:33:02 2022
+# Process ID: 20080
+# Current directory: C:/Users/david/Desktop/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19724 C:\Users\david\Desktop\final_project\final_project.xpr
+# Log file: C:/Users/david/Desktop/final_project/vivado.log
+# Journal file: C:/Users/david/Desktop/final_project\vivado.jou
+# Running On: LAPTOP-4GO7Q5C4, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david/Desktop/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+write_project_tcl -use_bd_files {C:/Users/david/Desktop/final_project/final_project.tcl}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+add_files -fileset utils_1 -norecurse C:/Users/david/Desktop/final_project/final_project.tcl
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/david/Desktop/final_project/final_project.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/david/Desktop/final_project/final_project.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/david/Desktop/final_project/final_project.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/david/Desktop/final_project/final_project.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1

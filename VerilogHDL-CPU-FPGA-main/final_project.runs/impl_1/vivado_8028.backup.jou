@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat May  7 16:10:53 2022
+# Process ID: 8028
+# Current directory: C:/Users/david/Desktop/final_project/final_project.runs/impl_1
+# Command line: vivado.exe -log datapath.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source datapath.tcl -notrace
+# Log file: C:/Users/david/Desktop/final_project/final_project.runs/impl_1/datapath.vdi
+# Journal file: C:/Users/david/Desktop/final_project/final_project.runs/impl_1\vivado.jou
+# Running On: LAPTOP-4GO7Q5C4, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+source datapath.tcl -notrace
