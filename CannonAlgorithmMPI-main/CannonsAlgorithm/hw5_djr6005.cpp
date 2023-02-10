@@ -373,7 +373,7 @@ void printMatrix(long* matrix, int n) {
 
 
 /*
-	Canned walltime code - src - William Seisler
+	Canned walltime code
 */
 void get_walltime(double* wcTime)
 {
