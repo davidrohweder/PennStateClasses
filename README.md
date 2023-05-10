@@ -5,7 +5,7 @@ Just some things I've made in uni
 
 There is a mix of projects in this repo.
 
-* Swift - Mobile App Class (Currently unavailable because I am LA in the class)
+* Swift - Mobile App Class
 * C - Operating Systems, Systems Programming
 * Python and Flask - Database Management Systems
 * C++ - Scientific Parallel Programming
