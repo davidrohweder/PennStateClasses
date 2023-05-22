@@ -1,7 +1,7 @@
 # PennStateClasses
 Just some things I've made in uni
 
-## Disclaimer: This is for employers only NOT for student usage.
+## Disclaimer: This is for the public only NOT for student usage.
 
 There is a mix of projects in this repo.
 
